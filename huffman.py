@@ -3,7 +3,6 @@ from re import L
 import numpy as np
 from basic_decorators import *
 from plots import *
-from basic_funcs import *
 from Algorithm import *
 
 
@@ -38,8 +37,6 @@ class Huffman(Algorithm):
 
     # @checkProbs1 # you must call checkProbls before checkSize as checksize doesn't call checkProbls1 if size =2
     # @checkSize  
-    
-    
     def _run_alorithm(self,probs):
         return self.run_algoirthm(probs,len(probs))
 

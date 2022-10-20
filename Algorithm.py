@@ -11,8 +11,8 @@ class Algorithm(object):
     def run_algoirthm(self, probs):
         raise NotImplementedError
 
-    # @checkProbs1 # you must call checkProbls before checkSize as checksize doesn't call checkProbls1 if size =2
-    # @checkSize  
+    @checkProbs1 # you must call checkProbls before checkSize as checksize doesn't call checkProbls1 if size =2
+    @checkSize  
     def _run_alorithm(self,probs):
         raise NotImplementedError
 
